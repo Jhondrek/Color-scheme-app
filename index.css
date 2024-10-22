@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    ;
+}
+
+header{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: white;
+    height: 15%;    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header input{
+    width: 10%;
+    height: 4rem;
+    border-color: gray;
+}
+
+header select, header button{
+    border: 1px solid #D1D5DB;
+    color: #111827;
+    border-radius: 5px;
+    background-color: white;
+}
+
+header select{
+    width: 50%;
+    height: 4rem;
+    font-size: large;
+    padding: 0rem 1rem;
+}
+
+header button{
+    width: 30%;
+    height: 4rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+main{
+    height: 85%;
+    display: flex;
+    cursor: pointer;
+
+}
+
+.colorPanel{
+    width: 20%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.colorPanel p{
+    color: black;
+    margin-top: auto;
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    padding: 1rem;
+}
